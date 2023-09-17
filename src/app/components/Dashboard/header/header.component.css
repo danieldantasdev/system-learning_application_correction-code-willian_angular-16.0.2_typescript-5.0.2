@@ -1,0 +1,46 @@
+:host ::ng-deep .p-button-warning {
+	background: #f7941d;
+	padding: 20px;
+	/*margin: 20px;*/
+	width: 2rem;
+	height: 1rem;
+}
+
+.header-container{
+  justify-content: space-between;
+}
+.botoes__Menu {
+	display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+	align-items: center;
+}
+
+.nav-bar {
+  background: #092C4C;
+}
+
+span {
+  font-weight: 400;
+  font-size: large;
+  color: white;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+a{
+  color: white;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #f7941d;
+}
+.active {
+  color: #f7941d;
+}

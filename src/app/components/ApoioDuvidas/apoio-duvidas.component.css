@@ -1,0 +1,59 @@
+#paginacao {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+}
+
+#Proximo {
+    margin-left: 5px;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+#comentarios {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#curtidas {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#addpergunta {
+    display: flex;
+    justify-content: center;
+}
+
+:host ::ng-deep .p-card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+:host ::ng-deep .p-card-body {
+    height: 180px;
+    margin: 10px;    
+    border-radius: 0px !important;
+    border: 2px solid #012544;
+}
+:host ::ng-deep .p-card-header {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+:host ::ng-deep .p-card .p-card-subtitle {
+    color: black !important;
+}
+:host ::ng-deep .p-card .p-card-content {
+    font-weight: 500;
+    color: black;
+}

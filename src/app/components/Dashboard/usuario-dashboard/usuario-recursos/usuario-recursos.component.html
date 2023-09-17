@@ -1,0 +1,20 @@
+
+
+<div class="essa" >
+
+    <h2>Lista de Recursos Digitais do Usuário</h2>
+    <div class="postagem" *ngIf="teladepostagem()"></div>
+    <p-tabView >
+        <p-tabPanel  header="Meus Arquivos">
+            <app-meus-recursos></app-meus-recursos>
+        </p-tabPanel>
+
+        <p-tabPanel header="Arquivos Compartilhados">
+            <div class="p-grid w-auto">
+                
+                <h1>Arquivos Compartilhados Aqui</h1>
+            </div>
+        </p-tabPanel>
+    </p-tabView>
+</div>
+       
