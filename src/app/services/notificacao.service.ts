@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { environment } from 'src/environments/environment';
-import {HttpClient} from "@angular/common/http";
 import { Observable } from 'rxjs';
-import {HttpHEaders, HttpClient} from '@angular/common/http'
+import { HttpHeaders, HttpClient } from '@angular/common/http'
+import {Notificacao} from "../models/Notficacao";
 
 
 const httpOptions = {
@@ -19,7 +19,7 @@ export class NotificacaoService {
 
   constructor(private _httpClient : HttpClient) { }
 
-  getAll = () :void :Observable<Notificacao[]> => {
-    return this._httpClient.get<Notification[]>(url: `${this.apiServer}/Notificacao`);
+  getAll = () :Observable<Notificacao[]> => {
+    return this._httpClient.get<Notificacao[]>(`${this.apiServer}/Notificacao`);
   }
 }
